@@ -1,0 +1,168 @@
+body{
+	background-color: #FF87BC
+}
+
+.textbox1{
+	background-color: #780074;
+	border-radius: 	10px;
+	padding-top: 20px;
+	border: 2px solid white;
+	margin-bottom: 10px;
+}
+
+td{
+	width: 50%
+}
+
+.textbox2{
+	background-color: #A3009E;
+	border-radius: 	10px;
+	padding: 20px;
+	border: 2px solid white;
+	margin-bottom: 10px;
+}
+
+.col{
+	backgound-color: white;
+}
+
+.textbox3{
+	background-color: #C000BA;
+	border-radius: 	10px;
+	padding: 20px;
+	border: 2px solid white;
+	margin-bottom: 10px;
+}
+
+.textbox4{
+	background-color: #D101CB;
+	border-radius: 	10px;
+	padding: 20px;
+	border: 2px solid white;
+	margin-bottom: 10px;
+}
+
+.textbox5{
+	background-color: #E500DE;
+	border-radius: 	10px;
+	padding: 20px;
+	border: 2px solid white;
+	margin-bottom: 10px;
+}
+
+.textbox6{
+	background-color: #FC00F4;
+	border-radius: 	10px;
+	padding: 20px;
+	border: 2px solid white;
+}
+
+.copyright{
+	margin-top: 20px;
+	margin-bottom: -5px;
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+
+h2{
+	color: white;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+h3{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: -4px;
+}
+
+h4{
+	color: white;
+	text-align: center;
+	font-size: 12px;
+}
+
+a{
+	color: #D2B4DE;
+}
+
+a:hover{
+	color: #900C3F;
+}
+.jumbotron{
+	margin-top: 30px;
+	background-color: #0E55C2;
+	border: 2px solid white;
+	padding: 20px;
+}
+
+.customh1{
+	color: white;
+	text-align: center;
+}
+
+
+#bottombutton {
+	background-color:#F5B041;
+	border: 10px groove #922B21;
+	color: #922B21;
+	font-weight: bold;
+	font-size:35px;
+	float: auto;
+	margin: auto;
+	width: 55%;
+	height: 85px;
+	margin-bottom: -40px
+}
+
+#bottombutton:hover{
+	background-color:orange;
+}
+
+#smallbutton{
+	background-color:#F5B041;
+	border: 3px groove #922B21;
+	color: #922B21;
+	font-weight: bold;
+	width: 80%;
+}
+
+#smallbutton:hover{
+	background-color:orange;
+}
+
+.wrapperbutton{
+	text-align: center;
+	margin-top:30px;
+}
+
+.thumbnail{
+	text-align: center;
+}
+.insidep{
+	color: black;
+	font-size: 8px;
+}
+
+.log{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+p{
+	color: white;
+	text-align: center;
+}
+
+.workplan{
+	color: white;
+	font-size: 21px;
+}
