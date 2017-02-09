@@ -1,2 +1,2 @@
-# okcupid-drug-data
-A website with interactive charts analyzing differences between OkC users that do or do not report using drugs.
+# OkCupid Drug Data
+A website with a series of charts analyzing the differences between 45,866 Bay Area OkCupid users that reported using drugs often, sometimes, or never.
