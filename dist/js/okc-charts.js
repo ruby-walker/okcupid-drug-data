@@ -134,7 +134,7 @@ chart.draw(data, options);
 
   function drawRaceSometimesChart() {
     var data = google.visualization.arrayToDataTable([
-      ['Age Bracket', 'Users'],
+      ['Race', 'Users'],
       ['White',             4898],
       ['Black',             195],
       ['Black / White',     66],
@@ -166,7 +166,7 @@ chart.draw(data, options);
 
 function drawRaceOftenChart() {
   var data = google.visualization.arrayToDataTable([
-    ['Age Bracket', 'Users'],
+    ['Race', 'Users'],
     ['White',             220],
     ['Black',             23],
     ['Black / White',     7],
@@ -199,13 +199,16 @@ function drawRaceOftenChart() {
 
 function drawReligionNeverChart() {
   var data = google.visualization.arrayToDataTable([
-    ['Age Bracket', 'Users'],
-    ['18-21',     1860],
-    ['22-25',     6453],
-    ['26-30',     10551],
-    ['31-40',     11232],
-    ['41-50',     4767],
-    ['51+',     2860]
+    ['Religion', 'Users'],
+    ['Agnostic',         4995],
+    ['Atheist',          7295],
+    ['Buddhist',          1212],
+    ['Catholic',          3774],
+    ['Other Christian',     4863],
+    ['Hindu',              365],
+    ['Muslim',           100],
+    ['Jewish',           1855],
+    ['Other',            4485]
   ]);
 
   var options = {
@@ -226,13 +229,16 @@ chart.draw(data, options);
 
   function drawReligionSometimesChart() {
     var data = google.visualization.arrayToDataTable([
-      ['Age Bracket', 'Users'],
-      ['18-21',     767],
-      ['22-25',     1979],
-      ['26-30',     2375],
-      ['31-40',     1904],
-      ['41-50',     556],
-      ['51+',     250],
+      ['Religion', 'Users'],
+      ['Agnostic',         1499],
+      ['Atheist',          1537],
+      ['Buddhist',          297],
+      ['Catholic',          310],
+      ['Other Christian',     328],
+      ['Hindu',              26],
+      ['Muslim',           18],
+      ['Jewish',           384],
+      ['Other',            1461]
     ]);
 
     var options = {
@@ -254,13 +260,16 @@ chart.draw(data, options);
 
 function drawReligionOftenChart() {
   var data = google.visualization.arrayToDataTable([
-    ['Age Bracket', 'Users'],
-    ['18-21',     103],
-    ['22-25',     132],
-    ['26-30',     91],
-    ['31-40',     59],
-    ['41-50',     13],
-    ['51+',       5]
+    ['Religion', 'Users'],
+    ['Agnostic',         45],
+    ['Atheist',          108],
+    ['Buddhist',          15],
+    ['Catholic',          20],
+    ['Other Christian',     26],
+    ['Hindu',              7],
+    ['Muslim',           6],
+    ['Jewish',           11],
+    ['Other',            85]
   ]);
 
 
@@ -283,13 +292,11 @@ function drawReligionOftenChart() {
 
 function drawDrinkingNeverChart() {
   var data = google.visualization.arrayToDataTable([
-    ['Age Bracket', 'Users'],
-    ['18-21',     1860],
-    ['22-25',     6453],
-    ['26-30',     10551],
-    ['31-40',     11232],
-    ['41-50',     4767],
-    ['51+',     2860]
+    ['Drinking Habits', 'Users'],
+    ['very often / desperately',     286],
+    ['socially',     26257],
+    ['rarely',     4591],
+    ['not at all',     2921]
   ]);
 
   var options = {
@@ -310,13 +317,11 @@ chart.draw(data, options);
 
   function drawDrinkingSometimesChart() {
     var data = google.visualization.arrayToDataTable([
-      ['Age Bracket', 'Users'],
-      ['18-21',     767],
-      ['22-25',     1979],
-      ['26-30',     2375],
-      ['31-40',     1904],
-      ['41-50',     556],
-      ['51+',     250],
+      ['Drinking Habits', 'Users'],
+      ['very often / desperately',     244],
+      ['socially',     5114],
+      ['rarely',     553],
+      ['not at all',     129]
     ]);
 
     var options = {
@@ -338,13 +343,11 @@ chart.draw(data, options);
 
 function drawDrinkingOftenChart() {
   var data = google.visualization.arrayToDataTable([
-    ['Age Bracket', 'Users'],
-    ['18-21',     103],
-    ['22-25',     132],
-    ['26-30',     91],
-    ['31-40',     59],
-    ['41-50',     13],
-    ['51+',       5]
+    ['Drinking Habits', 'Users'],
+    ['very often / desperately',     89],
+    ['socially',     160],
+    ['rarely',     46],
+    ['not at all',     19]
   ]);
 
 
@@ -368,13 +371,10 @@ function drawDrinkingOftenChart() {
 
 function drawOrientationNeverChart() {
   var data = google.visualization.arrayToDataTable([
-    ['Age Bracket', 'Users'],
-    ['18-21',     1860],
-    ['22-25',     6453],
-    ['26-30',     10551],
-    ['31-40',     11232],
-    ['41-50',     4767],
-    ['51+',     2860]
+    ['Orientation', 'Users'],
+    ['Straight',     33093],
+    ['Bisexual',     1084],
+    ['Gay',          3545]
   ]);
 
   var options = {
@@ -395,13 +395,10 @@ chart.draw(data, options);
 
   function drawOrientationSometimesChart() {
     var data = google.visualization.arrayToDataTable([
-      ['Age Bracket', 'Users'],
-      ['18-21',     767],
-      ['22-25',     1979],
-      ['26-30',     2375],
-      ['31-40',     1904],
-      ['41-50',     556],
-      ['51+',     250],
+      ['Orientation', 'Users'],
+      ['Straight',     6129],
+      ['Bisexual',     869],
+      ['Gay',          685]
     ]);
 
     var options = {
@@ -423,13 +420,10 @@ chart.draw(data, options);
 
 function drawOrientationOftenChart() {
   var data = google.visualization.arrayToDataTable([
-    ['Age Bracket', 'Users'],
-    ['18-21',     103],
-    ['22-25',     132],
-    ['26-30',     91],
-    ['31-40',     59],
-    ['41-50',     13],
-    ['51+',       5]
+    ['Orientation', 'Users'],
+    ['Straight',     323],
+    ['Bisexual',     56],
+    ['Gay',          31]
   ]);
 
 
