@@ -51,11 +51,16 @@ td{
 	border-radius: 	10px;
 	padding: 20px;
 	border: 2px solid white;
+	margin-bottom: 10px;
 }
 
 .copyright{
-	margin-top: 60px;
+	margin-top: 20px;
 	margin-bottom: -15px;
+}
+
+.a2a_kit{
+	margin-left: 40%
 }
 
 h1{
@@ -92,8 +97,8 @@ a{
 
 a:visited{
 	color: B70882;
-}	
-	
+}
+
 a:hover{
 	color: #900C3F;
 }
@@ -160,6 +165,11 @@ a:hover{
 p{
 	color: white;
 	text-align: center;
+}
+
+.statement{
+	color: white;
+	text-align: justify;
 }
 
 .workplan{
