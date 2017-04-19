@@ -8,9 +8,6 @@ google.charts.setOnLoadCallback(drawRaceOftenChart);
 google.charts.setOnLoadCallback(drawReligionNeverChart);
 google.charts.setOnLoadCallback(drawReligionSometimesChart);
 google.charts.setOnLoadCallback(drawReligionOftenChart);
-google.charts.setOnLoadCallback(drawDrinkingNeverChart);
-google.charts.setOnLoadCallback(drawDrinkingSometimesChart);
-google.charts.setOnLoadCallback(drawDrinkingOftenChart);
 google.charts.setOnLoadCallback(drawOrientationNeverChart);
 google.charts.setOnLoadCallback(drawOrientationSometimesChart);
 google.charts.setOnLoadCallback(drawOrientationOftenChart);
@@ -34,11 +31,9 @@ function drawAgeNeverChart() {
   var options = {
     pieHole: 0.4,
     backgroundColor: 'transparent',
-    legend: {
-      position: 'none'
-    },
-    titleTextStyle: { color: 'transparent',
-  fontSize: 20,
+    title: 'Never Does Drugs',
+    titleTextStyle: { fontSize: 20,
+    color: '300055',
   fontAlign: 'center'}
 };
 
@@ -61,11 +56,9 @@ chart.draw(data, options);
     var options = {
       pieHole: 0.4,
       backgroundColor: 'transparent',
-      legend: {
-        position: 'none'
-      },
-      titleTextStyle: { color: 'transparent',
-    fontSize: 20,
+      title: 'Does Drugs Sometimes',
+      titleTextStyle: { fontSize: 20,
+      color: '300055',
     fontAlign: 'center'}
     };
 
@@ -90,11 +83,9 @@ function drawAgeOftenChart() {
   var options = {
     pieHole: 0.4,
     backgroundColor: 'transparent',
-    legend: {
-      position: 'none'
-    },
-    titleTextStyle: { color: 'transparent',
-  fontSize: 20,
+    title: 'Does Drugs Often',
+    titleTextStyle: { fontSize: 20,
+    color: '300055',
   fontAlign: 'center'}
   };
 
@@ -122,11 +113,9 @@ function drawRaceNeverChart() {
   var options = {
     pieHole: 0.4,
     backgroundColor: 'transparent',
-    legend: {
-      position: 'none'
-    },
-    titleTextStyle: { color: 'transparent',
-  fontSize: 20,
+    title: 'Never Does Drugs',
+    titleTextStyle: { fontSize: 20,
+    color: '300055',
   fontAlign: 'center'}
 };
 
@@ -153,11 +142,9 @@ chart.draw(data, options);
     var options = {
       pieHole: 0.4,
       backgroundColor: 'transparent',
-      legend: {
-        position: 'none'
-      },
-      titleTextStyle: { color: 'transparent',
-    fontSize: 20,
+      title: 'Does Drugs Sometimes',
+      titleTextStyle: { fontSize: 20,
+      color: '300055',
     fontAlign: 'center'}
     };
 
@@ -186,11 +173,9 @@ function drawRaceOftenChart() {
   var options = {
     pieHole: 0.4,
     backgroundColor: 'transparent',
-    legend: {
-      position: 'none'
-    },
-    titleTextStyle: { color: 'transparent',
-  fontSize: 20,
+    title: 'Does Drugs Often',
+    titleTextStyle: { fontSize: 20,
+    color: '300055',
   fontAlign: 'center'}
   };
 
@@ -217,11 +202,9 @@ function drawReligionNeverChart() {
   var options = {
     pieHole: 0.4,
     backgroundColor: 'transparent',
-    legend: {
-      position: 'none'
-    },
-    titleTextStyle: { color: 'transparent',
-  fontSize: 20,
+    title: 'Never Does Drugs',
+    titleTextStyle: { fontSize: 20,
+    color: '300055',
   fontAlign: 'center'}
 };
 
@@ -247,11 +230,9 @@ chart.draw(data, options);
     var options = {
       pieHole: 0.4,
       backgroundColor: 'transparent',
-      legend: {
-        position: 'none'
-      },
-      titleTextStyle: { color: 'transparent',
-    fontSize: 20,
+      title: 'Does Drugs Sometimes',
+      titleTextStyle: { fontSize: 20,
+      color: '300055',
     fontAlign: 'center'}
     };
 
@@ -279,11 +260,9 @@ function drawReligionOftenChart() {
   var options = {
     pieHole: 0.4,
     backgroundColor: 'transparent',
-    legend: {
-      position: 'none'
-    },
-    titleTextStyle: { color: 'transparent',
-  fontSize: 20,
+    title: 'Does Drugs Often',
+    titleTextStyle: { fontSize: 20,
+    color: '300055',
   fontAlign: 'center'}
   };
 
@@ -292,85 +271,6 @@ function drawReligionOftenChart() {
   chart.draw(data, options);
 
 }
-
-function drawDrinkingNeverChart() {
-  var data = google.visualization.arrayToDataTable([
-    ['Drinking Habits', 'Users'],
-    ['very often / desperately',     286],
-    ['socially',     26257],
-    ['rarely',     4591],
-    ['not at all',     2921]
-  ]);
-
-  var options = {
-    pieHole: 0.4,
-    backgroundColor: 'transparent',
-    legend: {
-      position: 'none'
-    },
-    titleTextStyle: { color: 'transparent',
-  fontSize: 20,
-  fontAlign: 'center'}
-};
-
-  var chart = new google.visualization.PieChart(document.getElementById('DrinkingNever'));
-chart.draw(data, options);
-
-}
-
-  function drawDrinkingSometimesChart() {
-    var data = google.visualization.arrayToDataTable([
-      ['Drinking Habits', 'Users'],
-      ['very often / desperately',     244],
-      ['socially',     5114],
-      ['rarely',     553],
-      ['not at all',     129]
-    ]);
-
-    var options = {
-      pieHole: 0.4,
-      backgroundColor: 'transparent',
-      legend: {
-        position: 'none'
-      },
-      titleTextStyle: { color: 'transparent',
-    fontSize: 20,
-    fontAlign: 'center'}
-    };
-
-
-      var chart = new google.visualization.PieChart(document.getElementById('DrinkingSometimes'));
-    chart.draw(data, options);
-
-}
-
-function drawDrinkingOftenChart() {
-  var data = google.visualization.arrayToDataTable([
-    ['Drinking Habits', 'Users'],
-    ['very often / desperately',     89],
-    ['socially',     160],
-    ['rarely',     46],
-    ['not at all',     19]
-  ]);
-
-
-  var options = {
-    pieHole: 0.4,
-    backgroundColor: 'transparent',
-    legend: {
-      position: 'none'
-    },
-    titleTextStyle: { color: 'transparent',
-  fontSize: 20,
-  fontAlign: 'center'}
-  };
-
-
-    var chart = new google.visualization.PieChart(document.getElementById('DrinkingOften'));
-  chart.draw(data, options);
-
-}
-
 
 function drawOrientationNeverChart() {
   var data = google.visualization.arrayToDataTable([
@@ -383,11 +283,9 @@ function drawOrientationNeverChart() {
   var options = {
     pieHole: 0.4,
     backgroundColor: 'transparent',
-    legend: {
-      position: 'none'
-    },
-    titleTextStyle: { color: 'transparent',
-  fontSize: 20,
+    title: 'Never Does Drugs',
+    titleTextStyle: { fontSize: 20,
+    color: '300055',
   fontAlign: 'center'}
 };
 
@@ -407,11 +305,9 @@ chart.draw(data, options);
     var options = {
       pieHole: 0.4,
       backgroundColor: 'transparent',
-      legend: {
-        position: 'none'
-      },
-      titleTextStyle: { color: 'transparent',
-    fontSize: 20,
+      title: 'Does Drugs Sometimes',
+      titleTextStyle: { fontSize: 20,
+      color: '300055',
     fontAlign: 'center'}
     };
 
@@ -433,11 +329,9 @@ function drawOrientationOftenChart() {
   var options = {
     pieHole: 0.4,
     backgroundColor: 'transparent',
-    legend: {
-      position: 'none'
-    },
-    titleTextStyle: { color: 'transparent',
-  fontSize: 20,
+    title: 'Does Drugs Often',
+    titleTextStyle: { fontSize: 20,
+    color: '300055',
   fontAlign: 'center'}
   };
 
@@ -473,9 +367,7 @@ function drawIndustryNeverChart() {
   var options = {
     pieHole: 0.4,
     backgroundColor: 'transparent',
-    legend: {
-      position: 'none'
-    },
+    title: 'Never Does Drugs',
     titleTextStyle: { color: 'transparent',
   fontSize: 20,
   fontAlign: 'center'}
@@ -510,11 +402,9 @@ chart.draw(data, options);
     var options = {
       pieHole: 0.4,
       backgroundColor: 'transparent',
-      legend: {
-        position: 'none'
-      },
-      titleTextStyle: { color: 'transparent',
-    fontSize: 20,
+      title: 'Does Drugs Sometimes',
+      titleTextStyle: { fontSize: 20,
+      color: '300055',
     fontAlign: 'center'}
     };
 
@@ -549,11 +439,9 @@ function drawIndustryOftenChart() {
   var options = {
     pieHole: 0.4,
     backgroundColor: 'transparent',
-    legend: {
-      position: 'none'
-    },
-    titleTextStyle: { color: 'transparent',
-  fontSize: 20,
+    title: 'Does Drugs Often',
+    titleTextStyle: { fontSize: 20,
+    color: '300055',
   fontAlign: 'center'}
   };
 
@@ -585,11 +473,9 @@ function drawIndustryNever2Chart() {
   var options = {
     pieHole: 0.4,
     backgroundColor: 'transparent',
-    legend: {
-      position: 'none'
-    },
-    titleTextStyle: { color: 'transparent',
-  fontSize: 20,
+    title: 'Never Does Drugs',
+    titleTextStyle: { fontSize: 20,
+    color: '300055',
   fontAlign: 'center'}
 };
 
@@ -618,11 +504,9 @@ chart.draw(data, options);
     var options = {
       pieHole: 0.4,
       backgroundColor: 'transparent',
-      legend: {
-        position: 'none'
-      },
-      titleTextStyle: { color: 'transparent',
-    fontSize: 20,
+      title: 'Does Drugs Sometimes',
+      titleTextStyle: { fontSize: 20,
+      color: '300055',
     fontAlign: 'center'}
     };
 
@@ -653,11 +537,9 @@ function drawIndustryOften2Chart() {
   var options = {
     pieHole: 0.4,
     backgroundColor: 'transparent',
-    legend: {
-      position: 'none'
-    },
-    titleTextStyle: { color: 'transparent',
-  fontSize: 20,
+    title: 'Does Drugs Often',
+    titleTextStyle: { fontSize: 20,
+    color: '300055',
   fontAlign: 'center'}
   };
 

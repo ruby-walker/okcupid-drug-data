@@ -3,7 +3,8 @@ body{
 }
 
 .textbox1{
-	background-color: #780074;
+	background-color: #FBDFFF;
+	color: #300055;
 	border-radius: 	10px;
 	padding-top: 20px;
 	border: 2px solid white;
@@ -15,7 +16,7 @@ td{
 }
 
 .textbox2{
-	background-color: #A3009E;
+	background-color: #FBDFFF;
 	border-radius: 	10px;
 	padding: 20px;
 	border: 2px solid white;
@@ -23,7 +24,7 @@ td{
 }
 
 .textbox3{
-	background-color: #C000BA;
+	background-color: #FBDFFF;
 	border-radius: 	10px;
 	padding: 20px;
 	border: 2px solid white;
@@ -31,7 +32,7 @@ td{
 }
 
 .textbox4{
-	background-color: #D101CB;
+	background-color: #FBDFFF;
 	border-radius: 	10px;
 	padding: 20px;
 	border: 2px solid white;
@@ -39,7 +40,7 @@ td{
 }
 
 .textbox5{
-	background-color: #E500DE;
+	background-color: #FBDFFF;
 	border-radius: 	10px;
 	padding: 20px;
 	border: 2px solid white;
@@ -47,7 +48,7 @@ td{
 }
 
 .textbox6{
-	background-color: #FC00F4;
+	background-color: #FBDFFF;
 	border-radius: 	10px;
 	padding: 20px;
 	border: 2px solid white;
@@ -78,7 +79,7 @@ h2{
 }
 
 h3{
-	color: white;
+	color: #300055;
 	text-align: center;
 	font-size: 30px;
 	font-weight: bold;
@@ -163,12 +164,12 @@ a:hover{
 }
 
 p{
-	color: white;
+	color: #300055;
 	text-align: center;
 }
 
 .statement{
-	color: white;
+	color: #8000A9;
 	text-align: justify;
 }
 
